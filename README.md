@@ -150,7 +150,7 @@ To achieve this, first build a docker image of your app by running:
 
     ./gradlew bootRepackage -Pprod buildDocker
 
-Then run:
+Then we run:
 
     docker-compose -f src/main/docker/app.yml up -d
 
